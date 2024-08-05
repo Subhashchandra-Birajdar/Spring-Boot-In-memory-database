@@ -1,0 +1,17 @@
+
+endpoint post : http://localhost:8080/api/v1/products
+{
+     "id":1,
+    "name":"durga",
+    "quantity":10,
+    "price":10000
+}
+
+endpoint get all to get : http://localhost:8080/api/v1/products
+
+endpoint single item to get  : http://localhost:8080/api/v1/products/4
+
+endpoint update item to put  : http://localhost:8080/api/v1/products
+
+endpoint delete item to delete  : http://localhost:8080/api/v1/products/1
+
